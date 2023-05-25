@@ -1,0 +1,147 @@
+.container{
+ /* text-align: center; */
+ padding-left: 1rem;
+ position: relative;
+ display:  grid;
+ grid-template-columns: 20% 90%;
+}
+
+.text {
+  margin-top: 10rem;
+}
+.text p {
+  font-size: 18px;
+}
+
+.container h1 {
+  margin: 0;
+  padding: 0;
+  color: orangered;
+}
+.container img{
+  width: 5rem;
+  padding: 0.5rem 0.5rem;
+}
+.main_cover {
+  text-align: center;
+}
+.container_all {
+  background-color: rgb(1, 47, 1);
+  border: 2px solid black;
+  width: 80%;
+  height: 75vh;
+  /* margin-left: 20%; */
+  padding-top: 1rem;
+}
+.main_cover p {
+  font-size: 30px;
+  font-weight: bolder;
+  left: -10%;
+  position: relative;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  padding: 0.5rem 0rem;
+}
+.main_container {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  height: 85%;
+}
+.main_container h1 {
+  color: #fff;
+  padding-top: 1rem;
+}
+.you_container_box {
+  width: 100%;
+  border: 1px solid black;
+}
+.dealer_container_box {
+  width: 100%;
+  border: 1px solid black;
+}
+.container_all button{
+  padding: 10px 3rem;
+  font-weight: bolder;
+  font-size: 18px;
+}
+.container_all .hit{
+  background-color: rgb(6, 6, 158);
+  color: #fff;
+}
+.container_all .send{
+  background-color: orange;
+}
+.container_all .deal{
+  background-color: orangered;
+}
+table {
+  border: 1px solid black;
+  width: 20vw;
+  position: relative;
+  left: 30%;
+  margin-top: 1rem;
+  font-size: 16px;
+  font-weight: bolder;
+}
+th{
+  border: 1px solid black;
+}
+td{
+  border: 1px solid black;
+}
+
+/* ======= MEDIA SCREEN ======== */
+@media only screen and (max-width: 780px) {
+  .container{
+    display: block;
+    margin-top: 0rem;
+  }
+  .text {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .text p {
+   margin: 0rem;
+   padding: 0rem;
+  }
+  .container_all {
+    width: 95%;
+    border: none;
+  }
+  .main_container {
+    display: block;
+    height: 60vh;
+  }
+  .you_container_box {
+    height: 30vh;
+  }
+  .dealer_container_box{
+    height: 30vh;
+  }
+  .you_container_box img{
+    width: 4rem;
+    height: 6rem;
+  }
+  #you_h1 {
+    font-size: 15px;
+  }
+  .dealer_container_box img{
+    width: 4rem;
+    height: 6rem;
+  }
+  #dealer_h1 {
+    font-size: 15px;
+  }
+  .container_all button{
+    padding: 4px 1rem;
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  table {
+    border: 1px solid black;
+    width: 50vw;
+    position: relative;
+    left: 23%;
+  }
+}

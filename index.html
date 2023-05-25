@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css"/>
+  <title>Black Game</title>
+</head>
+<body>
+     <div class="container">
+              <div class="text">
+                     <h1>Black Game</h1>
+                     <p>Note! Always make the bot to play last by clicking on Send button</p>
+              </div>
+              
+
+              <div class="main_cover">
+                <p class="play">Let's Play</p>
+
+              <div class="container_all">
+                <div class="main_container">
+                  <!-- YOU CONTAINER -->
+                   <div class="you_container_box">
+                            <h1 id="you_h1">You: <b id = "you_score_result">0</b></h1>
+                            <div id = "you_img_container" class="img">
+                            </div>
+                   </div>
+                  <!-- DEALER CONTAINER -->
+                    <div class="dealer_container_box">
+                      <h1 id="dealer_h1">Dealer: <b id = "dealer_score_result">0</b></h1>
+                      <div id = "dealer_img_container" class="img">
+                      </div>
+                    </div>
+             </div>
+
+               <!-- CONTROLS -->
+               <div>
+                <button class="hit">Hit</button>
+                <button class="send">Send</button>
+                <button class="deal">Deal</button>
+                </div>
+              </div>
+
+                    <!-- SCORE SHEET -->
+             <table>
+              <tr>
+                    <th>Won</th>
+                    <th>Draw</th>
+                    <th>Loss</th>
+              </tr>
+              <tr>
+                   <td class="win">0</td>
+                   <td class="draw">0</td>
+                   <td class="loss">0</td>
+              </tr>
+        </table>
+              </div>
+     </div>
+     <script src="main.js"></script>
+</body>
+</html>
